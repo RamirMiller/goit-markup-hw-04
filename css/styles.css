@@ -67,8 +67,8 @@ button {
     border-bottom: 1px solid #e7e9fc;
     display: flex;
     flex-direction: row;
-    box-shadow:  0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-    
+    box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
     
     
 }
@@ -179,6 +179,20 @@ button {
     color: #2e2f42;
     padding: 24px 0;
     display: block;
+    
+}
+
+.hover::after {
+    display: flex;
+    content: '';
+    border-radius: 2px;
+    width: 48px;
+    height: 4px;
+    background: #404bbf;
+    position: relative;
+    top: 20px;
+    
+    
 
 }
 
@@ -195,13 +209,14 @@ button {
     height: 600px;
     margin: 0 auto;
     display: block;
-    padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)); 
+    padding: 188px 0;    
+    
 
-    background-image: url(../images/people-office-1.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-1.jpg);
     background-repeat: no-repeat; 
     background-position: center;
     background-size: cover;
+    
 
     
 
