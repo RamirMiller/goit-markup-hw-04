@@ -179,7 +179,13 @@ button {
     color: #2e2f42;
     padding: 24px 0;
     display: block;
+    position: relative;
     
+}
+
+.page-nav-oen {
+    color: #404bbf;
+    position: relative;
 }
 
 .hover::after {
@@ -189,8 +195,9 @@ button {
     width: 48px;
     height: 4px;
     background: #404bbf;
-    position: relative;
-    top: 20px;
+    position: absolute;
+    top;
+    bottom: -1px;
     
     
 
@@ -612,6 +619,12 @@ button {
     height: 312px;
     margin: 0 auto;
 }
+
+.footer-container {
+    display: flex; 
+    align-items: baseline;
+}
+
 .section-foot-text {
     font-weight: 400;
     font-size: 16px;
@@ -624,6 +637,7 @@ button {
 
 .logo-block {
     margin-right: 120px;
+    
 }
 
 .footer-logo-web {
@@ -645,7 +659,7 @@ button {
 
 .footer-icon-block {
     display: flex; 
-    align-items: baseline;
+    
 
 
 
@@ -658,13 +672,14 @@ button {
     gap: 16px;
     width: 208px;
     height: 40px;
+    margin: 16px;
 
 }
 
 .footer-list {
     width: 24px;
     height: 24px;
-    
+
 }
 
 
