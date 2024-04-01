@@ -661,6 +661,12 @@ button {
 
 }
 
+.footer-list {
+    width: 24px;
+    height: 24px;
+    
+}
+
 
 .icon-link {
     display: flex; 
