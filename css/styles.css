@@ -337,6 +337,31 @@ button {
 
 }
 
+.section-two-icon-background {
+    display: flex;
+    margin-bottom: 8px;
+    background: #f4f4fd;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    border: 1px solid #8e8f99; 
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.section-two-icon {
+    display: flex;
+    z-index: 11;
+    fill: none;
+    width: 64px;
+    height: 64px;
+
+
+
+}
 
 
 .section-two-title {
