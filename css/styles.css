@@ -203,6 +203,18 @@ button {
     position: absolute;    
     bottom: -1px;
 }
+/*
+.page-nav-oen:hover:after {
+    display: flex;
+    content: '';
+    border-radius: 2px;
+    width: 48px;
+    height: 4px;
+    background: #404bbf;
+    position: absolute;    
+    bottom: -1px;
+}
+*/
 
 /*===============Section 1 =====================*/
 
