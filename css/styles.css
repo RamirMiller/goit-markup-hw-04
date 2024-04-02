@@ -187,10 +187,19 @@ button {
 }
 
 .page-nav-oen {
+    color: #404bbf;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
 }
 
+.page-nav-oen::after {
+    display: flex;
+    content: '';
+    width: 48px;
+    height: 4px;    
+    position: absolute;    
+    bottom: -1px;
+}
 
 .page-nav-oen:hover::after {
     display: flex;
