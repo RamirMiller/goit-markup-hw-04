@@ -676,8 +676,17 @@ button {
     position: relative;
     overflow: hidden;
     display: block;
+}
 
+.thumb {
+    width: 360px;
+    height: 300px;
+  }
 
+.thumb img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .portfolio-cover-text {
