@@ -675,7 +675,8 @@ button {
 .portfolio-img-block {
     position: relative;
     overflow: hidden;
-    display: flex;
+    display: block;
+
 
 }
 
