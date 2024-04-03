@@ -455,8 +455,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    gap: 32px;
+    flex-direction: column;    
     width: 264px;
     height: 428px;
     border-radius: 0 0 4px 4px;
@@ -471,12 +470,10 @@ button {
 }
 
 
-.name-prof {
-    display: flex;
+.name-prof {    
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 8px;
     width: 232px;
     height: 104px;    
     padding-top: 32px;
@@ -581,12 +578,10 @@ button {
 
 .portfolio {
     display: flex;
-    gap: 24px;
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: stretch;
     row-gap: 48px; 
-    gap: 24px;
     flex-wrap: wrap;
     column-gap: 24px;
     justify-content: center;
