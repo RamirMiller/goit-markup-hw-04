@@ -453,8 +453,7 @@ button {
 
 .section-three-item {    
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center;    
     flex-direction: column;    
     width: 264px;
     height: 428px;
@@ -619,7 +618,6 @@ button {
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    gap: 8px;
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
@@ -636,7 +634,6 @@ button {
     flex-direction: column;
     width: calc((100% - 3 * 16px) / 3); 
     display: flex;
-    margin-bottom: 48px;
     position: relative;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
