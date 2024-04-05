@@ -221,15 +221,13 @@ button {
 
 .section-oen {
     background: #2e2f42;
-    height: 600px;
     padding: 188px 0;   
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-1.jpg);
     background-repeat: no-repeat; 
     background-position: center;
     background-size: cover;
-    
-
-    
+    width: 1440px;
+      
 
 }
 
@@ -299,11 +297,10 @@ button {
     
 }
 
-.section-two {
-    width: 1128px;       
+.section-two {    
     padding-bottom: 120px;
     padding-top: 120px;
-    margin: 0 auto;
+
 
 }
 
@@ -452,8 +449,7 @@ button {
     flex-direction: column;    
     width: 264px;
     height: 428px;
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;     
+    border-radius: 0 0 4px 4px;   
     background: #fff;    
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -511,6 +507,7 @@ button {
     width: 40px;
     height: 40px;
     display: flex;
+    align-items: center;
 }
 
 .team-icon-link {
@@ -779,7 +776,7 @@ button {
     gap: 16px;
     width: 208px;
     height: 40px;
-    margin: 16px;
+
 
 }
 
